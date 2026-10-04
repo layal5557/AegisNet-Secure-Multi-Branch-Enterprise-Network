@@ -40,7 +40,7 @@ services.
 
 ## Network Topology
 ![AegisNet Network Topology]
-(topology.png) 
+(secreenshots/topology.png) 
 
 The network contains **31 devices** across Headquarters, two remote
 sites, and an ISP/Internet segment.
