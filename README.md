@@ -39,8 +39,7 @@ services.
 ## 🏗️ Network Architecture {#building_construction-network-architecture}
 
 ## Network Topology
-![AegisNet Network Topology]
-(secreenshots/topology.png) 
+![AegisNet Network Topology](secreenshots/topology.png) 
 
 The network contains **31 devices** across Headquarters, two remote
 sites, and an ISP/Internet segment.
@@ -103,7 +102,7 @@ paths.
 ## 🌐 Routing {#globe_with_meridians-routing}
 
 ## OSPF Verification
-![OSPF Verification] (ospf.png)
+![OSPF Verification](secreenshots/ospf.png)
 
 ### OSPF
 
@@ -189,7 +188,7 @@ to protected access ports.
 ## 🌍 NAT / PAT & Internet Connectivity {#earth_africa-nat--pat--internet-connectivity}
 
 ## NAT/PAT Verification
-![NAT/PAT Verfication] (nat.png)
+![NAT/PAT Verfication](secreenshots/nat.png)
 
 NAT/PAT was implemented on the **HQ Edge Router** to provide Internet
 connectivity for internal networks.
@@ -209,7 +208,7 @@ Internal-to-Internet connectivity was successfully tested.
 ## 🧭 DNS & Internal Web Service {#compass-dns--internal-web-service}
 
 ## DNS & Web Verification
-![DNS and Web Verification] (dns-web.png)
+![DNS and Web Verification](secreenshots/dns-web.png)
 
 A dedicated DNS server was deployed for internal name resolution.
 
@@ -225,7 +224,7 @@ client devices.
 ## ⏱️ NTP {#stopwatch-ntp}
 
 ## NTP Verification
-![NTP Verification] (ntp.png)
+![NTP Verification](secreenshots/ntp.png)
 
 A dedicated NTP server was configured for centralized time
 synchronization.
@@ -248,7 +247,7 @@ The NTP status was successfully verified as synchronized.
 ## 📝 Centralized Syslog {#pencil-centralized-syslog}
 
 ## Syslog Verification
-![Syslog Verification] (syslog.png)
+![Syslog Verification](secreenshots/syslog.png)
 
 A dedicated Syslog server was configured at:
 
